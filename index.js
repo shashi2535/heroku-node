@@ -3,7 +3,7 @@ const app = express()
 
 app.use(express.json())
 
-app.get("/api/test", (req,res)=>{
+app.get("/", (req,res)=>{
 return res.json({success:true, message:"deployes node js app"})
 })
 
